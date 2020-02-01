@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     segments = self.split(/[?!.] {1,}/)
-    
+    if(segments.length == 1)
+      
   end
 end
