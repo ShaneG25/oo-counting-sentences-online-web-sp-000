@@ -19,5 +19,7 @@ class String
     if(segments.length == 1)
       return 0 
     else 
+      return segments.length 
+    end 
   end
 end
